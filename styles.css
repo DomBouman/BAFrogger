@@ -1,0 +1,19 @@
+html {
+  background: linear-gradient(darkblue, black);
+  background-repeat: no-repeat;
+}
+h1 {
+  color: green;
+  font-family: OCR A Std, monospace;
+  font-size: 400%;
+  text-align: center;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+li {
+  font-size: 200%;
+  padding: 10px;
+  text-align: center;
+}
