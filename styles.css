@@ -1,11 +1,13 @@
 html {
-  background: linear-gradient(darkblue, black);
+  background: linear-gradient(darkblue, black, black);
   background-repeat: no-repeat;
+  height: 100%;
 }
 h1 {
   color: green;
   font-family: OCR A Std, monospace;
-  font-size: 400%;
+  font-size: 550%;
+  margin-top: 10%;
   text-align: center;
 }
 a {
@@ -14,6 +16,14 @@ a {
 }
 li {
   font-size: 200%;
+  list-style: none;
   padding: 10px;
   text-align: center;
+}
+img {
+  margin-left: -10px;
+  margin-top: -10px;
+  max-height: 120px;
+  width: 103%;
+
 }
