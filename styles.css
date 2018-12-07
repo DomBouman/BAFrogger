@@ -1,3 +1,4 @@
+
 html {
   background: linear-gradient(darkblue, black, black);
   background-repeat: no-repeat;
@@ -29,6 +30,21 @@ html {
   text-align: center;
 }
 
+
+div {
+  color: darkred;
+}
+
+body {
+  color: blue;
+}
+
+body {
+  padding: 0; margin: 0;
+} 
+canvas {
+  vertical-align: top;
+  
 img {
   margin-left: -10px;
   margin-top: -10px;

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DomBouman/BAFrogger/issues"
   },
-  "homepage": "https://github.com/DomBouman/BAFrogger#readme"
+  "homepage": "https://github.com/DomBouman/BAFrogger#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
