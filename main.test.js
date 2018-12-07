@@ -1,5 +1,6 @@
 const {
-  addParagraph, addDiv
+  addParagraph,
+  addDiv,
 } = require('./main');
 
 describe('addParagraph()', () => {

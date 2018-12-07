@@ -158,7 +158,7 @@ let rows = [];
 // Handles game reset if the frog dies, or at the initial load.
 function resetGame() {
   frog = new Frog(width / 2, height - grid_size, grid_size);
-}
+};
 
 // p5js setup function, ran on page load.
 function setup() {
@@ -177,7 +177,7 @@ function setup() {
   ];
   createCanvas(width, rows.length * grid_size);
   resetGame();
-}
+};
 
 // p5js draw function, ran on every frame.
 function draw() {
@@ -200,7 +200,7 @@ function draw() {
   frog.attach(intersects);
   frog.update();
   frog.show();
-}
+};
 
 // p5js key pressed function, runs when any key is pressed on the keyboard
 // while the game is open.
@@ -214,5 +214,5 @@ function keyPressed() {
   } else if(keyCode === RIGHT_ARROW) {
     frog.move(grid_size, 0);
   }
-}
+};
 
