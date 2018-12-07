@@ -4,7 +4,7 @@
   "description": "tests for our Frogger game",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DomBouman/BAFrogger/issues"
   },
-  "homepage": "https://github.com/DomBouman/BAFrogger#readme"
+  "homepage": "https://github.com/DomBouman/BAFrogger#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }

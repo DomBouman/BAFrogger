@@ -1,7 +1,3 @@
-html {
-  background: linear-gradient(darkblue, black);
-  background-repeat: no-repeat;
-}
 h1 {
   color: green;
   font-family: OCR A Std, monospace;
@@ -16,4 +12,19 @@ li {
   font-size: 200%;
   padding: 10px;
   text-align: center;
+}
+
+div {
+  color: darkred;
+}
+
+body {
+  color: blue;
+}
+
+body {
+  padding: 0; margin: 0;
+} 
+canvas {
+  vertical-align: top;
 }
